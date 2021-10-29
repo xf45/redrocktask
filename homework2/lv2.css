@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #222526;
+}
+.father
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg
+{    width:260px;
+    font-size: 140px;
+    font-weight: 600;
+    text-align: right;
+    background: linear-gradient(to right,#43454A 0%,#43454A 50%,#404243 51%, #404243 100%);
+    -webkit-background-clip: text;
+    color:transparent;
+ 
+}
+.item
+{
+    border: 1px solid #1B2223;
+    border-radius: 15px;
+    width:300px;
+    height:350px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #242326 ,5px 5px 1px #1D2223  inset,-8px -8px 8px #2F3131 ,-8px -8px 5px#2F3131 inset;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+.first
+{
+    width:260px;
+    height:330px;
+    border-radius: 15px 15px 0 0;
+    margin:0 auto;
+    background: linear-gradient(to right,#303236 0%,#303236 50%,#292B2F 51%,#292B2F 100%);
+   
+}
+.first:hover{
+    cursor:pointer;
+    transform:translate(0,-35px);
+}
+.first-line-text
+{
+    color:#FFFFFF;
+    background: transparent;
+   text-align: center;
+   font-size: 25px;
+   font-weight:600;
+   margin-top:-60px;
+}
+.second-line-text
+{
+   color:#FFFFFF;
+    background: linear-gradient(to right,#303236 0%,#303236 50%,#292B2F 51%,#292B2F 100%);
+    text-align: center;
+    width:210px;
+    margin:15px auto;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.f-more
+{
+  display:block;
+  background-color: #2294F4;
+  color:#FFFFFF;
+  width:120px;
+  height:40px;
+  line-height:35px;
+  text-align: center;
+  border-radius: 5px;
+  margin:15px auto;
+}
+
+.s-more
+{ display:block;
+  background-color: #EB2165;
+  color:#FFFFFF;
+  width:120px;
+  height:40px;
+  line-height:35px;
+  text-align: center;
+  border-radius: 5px;
+  margin:15px auto;
+
+}
+.t-more
+{
+display:block;
+  background-color: #22C285;
+  color:#FFFFFF;
+  width:120px;
+  height:40px;
+  line-height:35px;
+  text-align: center;
+  border-radius: 5px;
+  margin:15px auto;
+}
+.f-more:hover
+{
+background-color: #FFFFFF;
+color:black;
+}
+.s-more:hover 
+{
+   background-color: #FFFFFF;
+color:black;
+}
+.t-more:hover{
+background-color: #FFFFFF;
+color:black;
+}

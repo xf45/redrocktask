@@ -1,0 +1,55 @@
+.father {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first {
+    border: 1px solid #f00;
+    width: 150px;
+    height: 120px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.second {
+    border: 1px solid #f00;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.third {
+    border: 1px solid #f00;
+    width: 150px;
+    height: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fourth {
+    border: 1px solid blue;
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width:780px) {
+    .father {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    .fourth {
+        order: -1;
+    }
+
+}
